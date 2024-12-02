@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [color,setColor]=useState('olive')    //hooks
-
+ 
   function changeColor(color) {
      setColor(color)
    }
